@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /private/
-Disallow: /admin/
-Disallow: /login/
-Disallow: /tmp/
+
+Disallow: /images/
