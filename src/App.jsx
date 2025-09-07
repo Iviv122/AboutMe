@@ -7,8 +7,11 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "@/components/ui/image"
-import Uknown from "@/components/ui/uknown" 
+import Uknown from "@/components/ui/uknown"
+import Marquee from "@/components/ui/marquee"
 import './App.css'
+
+const items = ["Nothing to see here", "Nothing to see here","Nothing to see here","Nothing to see here","Nothing to see here","Nothing to see here",]
 
 function App() {
 
@@ -21,18 +24,22 @@ function App() {
               imageUrl="./icon.jpg"
             >
             </Image>
-            
+
             <div>
               <h1>Hi There!</h1>
-              <h1>Your friend Ivan from <Uknown/></h1>
+              <h1>Your friend from <Uknown /></h1>
+              <br />
+              <h1> This web site belongs to mold</h1>
             </div>
-            
+
             <div>
             </div>
           </div>
 
         </CardContent>
       </Card>
+      <Marquee items={items} />
+
     </>
   )
 }
