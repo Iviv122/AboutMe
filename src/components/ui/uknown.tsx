@@ -10,7 +10,7 @@ function getRandomInt(max) {
 }
 
 const chars = "$#%&@*!"
-const length = 5
+const length = 7
 
 export default function Uknown({ className }: Props) {
 
